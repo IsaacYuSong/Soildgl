@@ -1,0 +1,14 @@
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.AssemblyInfoInputs.cache
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.AssemblyInfo.cs
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.csproj.CoreCompileInputs.cache
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\bin\Debug\net7.0\MiniShell.exe
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\bin\Debug\net7.0\MiniShell.deps.json
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\bin\Debug\net7.0\MiniShell.runtimeconfig.json
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\bin\Debug\net7.0\MiniShell.dll
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\bin\Debug\net7.0\MiniShell.pdb
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.dll
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\refint\MiniShell.dll
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.pdb
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\MiniShell.genruntimeconfig.cache
+C:\Users\Isaac\source\repos\MiniShell\MiniShell\obj\Debug\net7.0\ref\MiniShell.dll
