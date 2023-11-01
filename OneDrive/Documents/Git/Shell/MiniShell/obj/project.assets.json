@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Isaac\\source\\repos\\MiniShell\\MiniShell\\MiniShell.csproj",
+      "projectUniqueName": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Shell\\MiniShell\\MiniShell.csproj",
       "projectName": "MiniShell",
-      "projectPath": "C:\\Users\\Isaac\\source\\repos\\MiniShell\\MiniShell\\MiniShell.csproj",
+      "projectPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Shell\\MiniShell\\MiniShell.csproj",
       "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Isaac\\source\\repos\\MiniShell\\MiniShell\\obj\\",
+      "outputPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Shell\\MiniShell\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
