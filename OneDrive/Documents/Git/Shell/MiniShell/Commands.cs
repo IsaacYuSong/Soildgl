@@ -9,8 +9,6 @@ namespace MiniShell
 {
     public class Commands
     {
-        
-
         public static void Cd(string? newDirectoryPath = null)
         {
             
@@ -30,9 +28,14 @@ namespace MiniShell
                 Console.WriteLine("Directory " + newDirectoryPath + " does not exist.");
             }
         }
-        public static void Ls(string currentDirectory=null)
+        public static void Ls(string currentDirectory = null)
         {
             
+        }
+        public static void WhoAmI()
+        {
+            string userName = Environment.UserName;
+            Console.WriteLine(userName);
         }
     }
 }

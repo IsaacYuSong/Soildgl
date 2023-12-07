@@ -36,6 +36,9 @@
                     case "clear":
                         Console.Clear();
                         break;
+                    case "whoami":
+                        Commands.WhoAmI();
+                        break;
                    
                 }
             }

@@ -26,3 +26,4 @@ C:\Users\Isaac\OneDrive\Documents\Git\Shell\MiniShell\obj\Debug\net7.0\refint\Mi
 C:\Users\Isaac\OneDrive\Documents\Git\Shell\MiniShell\obj\Debug\net7.0\MiniShell.pdb
 C:\Users\Isaac\OneDrive\Documents\Git\Shell\MiniShell\obj\Debug\net7.0\MiniShell.genruntimeconfig.cache
 C:\Users\Isaac\OneDrive\Documents\Git\Shell\MiniShell\obj\Debug\net7.0\ref\MiniShell.dll
+C:\Users\Isaac\OneDrive\Documents\Git\Shell\MiniShell\obj\Debug\net7.0\MiniShell.sourcelink.json
