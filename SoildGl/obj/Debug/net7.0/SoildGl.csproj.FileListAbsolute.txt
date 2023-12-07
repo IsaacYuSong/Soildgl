@@ -1,0 +1,15 @@
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\bin\Debug\net7.0\SoildGl.exe
+C:\Users\Isaac\OneDrive\Documents\Git\SoildGl\SoildGl\bin\Debug\net7.0\SoildGl.deps.json
+C:\Users\Isaac\OneDrive\Documents\Git\SoildGl\SoildGl\bin\Debug\net7.0\SoildGl.runtimeconfig.json
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\bin\Debug\net7.0\SoildGl.dll
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\bin\Debug\net7.0\SoildGl.pdb
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.AssemblyInfoInputs.cache
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.AssemblyInfo.cs
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.csproj.CoreCompileInputs.cache
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.sourcelink.json
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.dll
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\refint\SoildGl.dll
+C:\Users\Isaac\OneDrive\Documents\Git\Soildgl\SoildGl\obj\Debug\net7.0\SoildGl.pdb
+C:\Users\Isaac\OneDrive\Documents\Git\SoildGl\SoildGl\obj\Debug\net7.0\SoildGl.genruntimeconfig.cache
+C:\Users\Isaac\OneDrive\Documents\Git\SoildGl\SoildGl\obj\Debug\net7.0\ref\SoildGl.dll
