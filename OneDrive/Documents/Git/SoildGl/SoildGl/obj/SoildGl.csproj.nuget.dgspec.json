@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\SoildGl\\SoildGl\\SoildGl.csproj": {}
+    "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Soildgl\\SoildGl\\SoildGl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\SoildGl\\SoildGl\\SoildGl.csproj": {
+    "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Soildgl\\SoildGl\\SoildGl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\SoildGl\\SoildGl\\SoildGl.csproj",
+        "projectUniqueName": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Soildgl\\SoildGl\\SoildGl.csproj",
         "projectName": "SoildGl",
-        "projectPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\SoildGl\\SoildGl\\SoildGl.csproj",
+        "projectPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Soildgl\\SoildGl\\SoildGl.csproj",
         "packagesPath": "C:\\Users\\Isaac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\SoildGl\\SoildGl\\obj\\",
+        "outputPath": "C:\\Users\\Isaac\\OneDrive\\Documents\\Git\\Soildgl\\SoildGl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

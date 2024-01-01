@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniShell")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a479bda169e33de05516ffcc423327738b21af53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e771a9a264f6aa2525602e86f95b41b81d37dd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniShell")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniShell")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

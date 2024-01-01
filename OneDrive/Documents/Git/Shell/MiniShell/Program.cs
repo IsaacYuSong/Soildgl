@@ -1,4 +1,6 @@
-﻿namespace MiniShell
+﻿using System.Xml.Linq;
+
+namespace MiniShell
 {
     class Program
     {
@@ -22,14 +24,14 @@
                             Commands.Cd();
                         }
                         break;
-                    case "ls":
+                    case "dir":
                         if(words.Length > 1)
                         {
-                            Commands.Ls(words[1]);
+                            Commands.Dir(words[1]);
                         }
                         else
                         {
-                            Commands.Ls();
+                            Commands.Dir();
                         }
                         
                         break;
@@ -39,7 +41,9 @@
                     case "whoami":
                         Commands.WhoAmI();
                         break;
-                   
+                    default:
+                        Console.WriteLine($"Command {words[0]} not found");
+                        break;
                 }
             }
 

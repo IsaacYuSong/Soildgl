@@ -1,11 +1,24 @@
 ﻿using System;
 using System.Threading;
-namespace SoildGl
+
+namespace SolidGL
 {
-    public class Soildgl
+    public class SolidGL
     {
-        public int windowHeight = 10;
-        public int windowWidth = 10;
+        private bool isRendered = false;
+        public const int DefaultWindowHeight = 50;
+        public const int DefaultWindowWidth = 50;
+
+        public int WindowHeight { get; set; }
+        public int WindowWidth { get; set; }
+        private char[,] buffer;
+
+        public SolidGL(int windowHeight = DefaultWindowHeight, int windowWidth = DefaultWindowWidth)
+        {
+            WindowHeight = windowHeight;
+            WindowWidth = windowWidth;
+            buffer = new char[WindowWidth, WindowHeight];
+        }
 
         public void sdError(string msg)
         {
@@ -21,10 +34,12 @@ namespace SoildGl
             int sy = (y1 < y2) ? 1 : -1;
             int err = dx - dy;
 
-            while (x1 != x2 || y1 != y2)
+            while (true)
             {
-                Console.SetCursorPosition(x1, y1);
-                Console.Write(character);
+                sdDraw(x1, y1, character);
+
+                if (x1 == x2 && y1 == y2)
+                    break;
 
                 int e2 = 2 * err;
                 if (e2 > -dy)
@@ -42,65 +57,57 @@ namespace SoildGl
 
         public void sdDraw(int x, int y, char character)
         {
-            Console.SetCursorPosition(x, y);
-            Console.Write(character);
-        }
-
-        public void sdDrawRectangle(int x, int y, int width, int height, char character)
-        {
-            for (int i = 0; i < height; i++)
-            {
-                for (int j = 0; j < width; j++)
-                {
-                    sdDraw(x + j, y + i, character);
-                }
-            }
-        }
-
-        public void sdFillRectangle(int x, int y, int width, int height, char character)
-        {
-            for (int i = 0; i < height; i++)
-            {
-                for (int j = 0; j < width; j++)
-                {
-                    sdDraw(x + j, y + i, character);
-                }
-            }
-        }
-
-        public void sdDrawCircle(int centerX, int centerY, int radius, char character)
-        {
-            for (int angle = 0; angle < 360; angle++)
-            {
-                double radians = angle * Math.PI / 180.0;
-                int x = (int)(centerX + radius * Math.Cos(radians));
-                int y = (int)(centerY + radius * Math.Sin(radians));
-                sdDraw(x, y, character);
-            }
-        }
-
-        public void sdFillCircle(int centerX, int centerY, int radius, char character)
-        {
-            for (int y = -radius; y <= radius; y++)
-            {
-                for (int x = -radius; x <= radius; x++)
-                {
-                    if (x * x + y * y <= radius * radius)
-                    {
-                        sdDraw(centerX + x, centerY + y, character);
-                    }
-                }
-            }
+            if (x >= 0 && x < WindowWidth && y >= 0 && y < WindowHeight)
+                buffer[x, y] = character;
         }
 
         public void sdClear()
         {
             Console.Clear();
+            buffer = new char[WindowWidth, WindowHeight];
+        }
+
+        public char sdGetKey(char key)
+        {
+            if (Console.KeyAvailable)
+            {
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+                return keyInfo.KeyChar;
+            }
+            else
+            {
+                return '\0';
+            }
         }
 
         public void sdRender()
         {
-            Thread.Sleep(1000);
+            if (!isRendered)
+            {
+                Console.Clear();
+            }
+
+            for (int y = 0; y < WindowHeight; y++)
+            {
+                for (int x = 0; x < WindowWidth; x++)
+                {
+                    Console.Write(buffer[x, y]);
+                }
+            }
+
+            isRendered = true;
         }
+
+        public void sdClearRenderFlag()
+        {
+            isRendered = false;
+        }
+
+        public void sdSetColor(ConsoleColor color)
+        {
+            Console.ForegroundColor = color;
+        }
+
+
     }
 }

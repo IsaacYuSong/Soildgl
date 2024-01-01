@@ -1,11 +1,14 @@
-﻿using System;
-namespace SoildGl
+﻿namespace SolidGL
 {
-    class Program:Soildgl
+    class Program
     {
-        public void Main(string[]args)
+        static void Main()
         {
-            sdDrawLine(1,2,1,2,'*');
+            SolidGL solidGL = new SolidGL();
+            solidGL.sdRender();
+
+            Console.ReadKey();
+
         }
     }
 }
